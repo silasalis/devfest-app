@@ -79,7 +79,7 @@ public class UIUtils {
 
 
     public static final String TARGET_FORM_FACTOR_ACTIVITY_METADATA =
-            "com.google.samples.apps.iosched.meta.TARGET_FORM_FACTOR";
+            "org.gdgomsk.devfest.app.meta.TARGET_FORM_FACTOR";
 
     public static final String TARGET_FORM_FACTOR_HANDSET = "handset";
     public static final String TARGET_FORM_FACTOR_TABLET = "tablet";

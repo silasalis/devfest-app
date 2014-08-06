@@ -64,29 +64,29 @@ public class SessionAlarmService extends IntentService
     private static final String TAG = makeLogTag(SessionAlarmService.class);
 
     public static final String ACTION_NOTIFY_SESSION =
-            "com.google.samples.apps.iosched.action.NOTIFY_SESSION";
+            "org.gdgomsk.devfest.app.action.NOTIFY_SESSION";
     public static final String ACTION_NOTIFY_SESSION_FEEDBACK =
-            "com.google.samples.apps.iosched.action.NOTIFY_SESSION_FEEDBACK";
+            "org.gdgomsk.devfest.app.NOTIFY_SESSION_FEEDBACK";
     public static final String ACTION_SCHEDULE_FEEDBACK_NOTIFICATION =
-            "com.google.samples.apps.iosched.action.SCHEDULE_FEEDBACK_NOTIFICATION";
+            "org.gdgomsk.devfest.app.action.SCHEDULE_FEEDBACK_NOTIFICATION";
     public static final String ACTION_SCHEDULE_STARRED_BLOCK =
-            "com.google.samples.apps.iosched.action.SCHEDULE_STARRED_BLOCK";
+            "org.gdgomsk.devfest.app.action.SCHEDULE_STARRED_BLOCK";
     public static final String ACTION_SCHEDULE_ALL_STARRED_BLOCKS =
-            "com.google.samples.apps.iosched.action.SCHEDULE_ALL_STARRED_BLOCKS";
+            "org.gdgomsk.devfest.app.action.SCHEDULE_ALL_STARRED_BLOCKS";
     public static final String EXTRA_SESSION_START =
-            "com.google.samples.apps.iosched.extra.SESSION_START";
+            "org.gdgomsk.devfest.app.extra.SESSION_START";
     public static final String EXTRA_SESSION_END =
-            "com.google.samples.apps.iosched.extra.SESSION_END";
+            "org.gdgomsk.devfest.app.extra.SESSION_END";
     public static final String EXTRA_SESSION_ALARM_OFFSET =
-            "com.google.samples.apps.iosched.extra.SESSION_ALARM_OFFSET";
+            "org.gdgomsk.devfest.app.extra.SESSION_ALARM_OFFSET";
     public static final String EXTRA_SESSION_ID =
-            "com.google.samples.apps.iosched.extra.SESSION_ID";
+            "org.gdgomsk.devfest.app.extra.SESSION_ID";
     public static final String EXTRA_SESSION_TITLE =
-            "com.google.samples.apps.iosched.extra.SESSION_TITLE";
+            "org.gdgomsk.devfest.app.extra.SESSION_TITLE";
     public static final String EXTRA_SESSION_ROOM =
-            "com.google.samples.apps.iosched.extra.SESSION_ROOM";
+            "org.gdgomsk.devfest.app.extra.SESSION_ROOM";
     public static final String EXTRA_SESSION_SPEAKERS =
-            "com.google.samples.apps.iosched.extra.SESSION_SPEAKERS";
+            "org.gdgomsk.devfest.app.SESSION_SPEAKERS";
 
     public static final int NOTIFICATION_ID = 100;
     public static final int FEEDBACK_NOTIFICATION_ID = 101;
@@ -228,7 +228,7 @@ public class SessionAlarmService extends IntentService
                 this,
                 SessionAlarmService.class);
         feedbackIntent.setData(
-                new Uri.Builder().authority("com.google.samples.apps.iosched")
+                new Uri.Builder().authority("org.gdgomsk.devfest.app")
                         .path(sessionId).build()
         );
         feedbackIntent.putExtra(SessionAlarmService.EXTRA_SESSION_END, sessionEnd);
@@ -274,7 +274,7 @@ public class SessionAlarmService extends IntentService
                 SessionAlarmService.class);
         // Setting data to ensure intent's uniqueness for different session start times.
         notifIntent.setData(
-                new Uri.Builder().authority("com.google.samples.apps.iosched")
+                new Uri.Builder().authority("org.gdgomsk.devfest.app")
                         .path(String.valueOf(sessionStart)).build()
         );
         notifIntent.putExtra(SessionAlarmService.EXTRA_SESSION_START, sessionStart);

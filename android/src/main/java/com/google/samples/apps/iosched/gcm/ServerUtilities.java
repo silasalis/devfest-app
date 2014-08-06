@@ -39,7 +39,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.*;
 public final class ServerUtilities {
     private static final String TAG = makeLogTag("GCMs");
 
-    private static final String PREFERENCES = "com.google.samples.apps.iosched.gcm";
+    private static final String PREFERENCES = "org.gdgomsk.devfest.app.gcm";
     private static final String PROPERTY_REGISTERED_TS = "registered_ts";
     private static final String PROPERTY_REG_ID = "reg_id";
     private static final String PROPERTY_GCM_KEY = "gcm_key";

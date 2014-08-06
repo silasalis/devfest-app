@@ -45,7 +45,7 @@ public class NfcBadgeActivity extends Activity {
     private static final String ATTENDEE_URL_PREFIX = "\u0004plus.google.com/";
 
     // For debug purposes
-    public static final String ACTION_SIMULATE = "com.google.samples.apps.iosched.ACTION_SIMULATE";
+    public static final String ACTION_SIMULATE = "org.gdgomsk.devfest.app.ACTION_SIMULATE";
 
     @Override
     public void onStart() {

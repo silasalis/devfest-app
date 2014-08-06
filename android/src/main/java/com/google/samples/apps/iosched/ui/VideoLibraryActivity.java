@@ -41,8 +41,8 @@ public class VideoLibraryActivity extends BaseActivity implements VideoLibraryFr
     private static final String TAG = makeLogTag(VideoLibraryActivity.class);
     private static final String SCREEN_LABEL = "Video Library";
 
-    private static final String STATE_KEY_YEAR = "com.google.samples.apps.iosched.STATE_KEY_YEAR";
-    private static final String STATE_KEY_TOPIC = "com.google.samples.apps.iosched.STATE_KEY_TOPIC";
+    private static final String STATE_KEY_YEAR = "org.gdgomsk.devfest.app.STATE_KEY_YEAR";
+    private static final String STATE_KEY_TOPIC = "org.gdgomsk.devfest.app.STATE_KEY_TOPIC";
 
     private ArrayList<Integer> mYears = new ArrayList<Integer>();
     private ArrayList<String> mTopics = new ArrayList<String>();

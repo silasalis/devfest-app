@@ -39,7 +39,7 @@ public class MapActivity extends NearbyActivity implements MapFragment.Callbacks
 
     private static final String TAG = makeLogTag(MapActivity.class);
     public static final String EXTRA_DETACHED_MODE
-            = "com.google.samples.apps.iosched.EXTRA_DETACHED_MODE";
+            = "org.gdgomsk.devfest.app.EXTRA_DETACHED_MODE";
 
     private static final String SCREEN_LABEL = "Map";
     private static final String PARTNERS_FRAGMENT_TAG = "partners";

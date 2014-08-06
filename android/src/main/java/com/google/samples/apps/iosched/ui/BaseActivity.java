@@ -30,7 +30,6 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.preference.PreferenceManager;
@@ -942,7 +941,7 @@ public abstract class BaseActivity extends Activity implements
 
     /**
      * Performs the one-time data bootstrap. This means taking our prepackaged conference data
-     * from the R.raw.bootstrap_data resource, and parsing it to populate the database. This
+     * from the R.raw.bootstrap_data_io resource, and parsing it to populate the database. This
      * data contains the sessions, speakers, etc.
      */
     private void performDataBootstrap() {
@@ -954,7 +953,7 @@ public abstract class BaseActivity extends Activity implements
                 LOGD(TAG, "Starting data bootstrap process.");
                 try {
                     // Load data from bootstrap raw resource
-                    String bootstrapJson = JSONHandler.parseResource(appContext, R.raw.bootstrap_data);
+                    String bootstrapJson = JSONHandler.parseResource(appContext, R.raw.bootstrap_data_devfest);
 
                     // Apply the data we read to the database with the help of the ConferenceDataHandler
                     ConferenceDataHandler dataHandler = new ConferenceDataHandler(appContext);

@@ -587,7 +587,7 @@ public class PeopleIveMetFragment extends Fragment
     public static class EditNoteFragment extends DialogFragment implements View.OnClickListener {
 
         public static final String TAG =
-                "com.google.samples.apps.iosched.ui.PeopleIveMetFragment.EditNoteFragment";
+                "org.gdgomsk.devfest.app.ui.PeopleIveMetFragment.EditNoteFragment";
 
         private static final String ARG_PERSON_ID = "person_id";
         private static final String ARG_PERSON_NAME = "person_name";

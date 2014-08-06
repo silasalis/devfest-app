@@ -16,7 +16,7 @@
 
 lpreview = hasProperty('lpreview')
 
-apply plugin: 'android'
+apply plugin: 'com.android.application'
 
 repositories {
     mavenCentral()
@@ -33,6 +33,7 @@ android {
 
     defaultConfig lpreview ? {} : {
         // Non-L-preview configuration
+        applicationId "org.gdgomsk.devfest.app"
         minSdkVersion 14
         targetSdkVersion 19
     }

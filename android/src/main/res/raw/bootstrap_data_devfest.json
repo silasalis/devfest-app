@@ -1,0 +1,448 @@
+{
+  "speakers": [
+    {
+      "bio": "Alex has been doing professional client-side development over the last decade in a variety of UI toolkits and libraries that spanned Motif, MFC, VB, Ada, Delphi, Swing and SWT. Since 2009 he's been part of the Android team at Google. He has a particular interest in creating polished, responsive and well-behaving, user-facing applications that help the end users achieve their goals quickly and painlessly.",
+      "name": "Alex Korovyansky",
+      "company": "GDG Omsk",
+      "plusoneUrl": "https://plus.google.com/+AlexKorovyansky",
+      "thumbnailUrl": "https://lh4.googleusercontent.com/-ddCjdaSOEW4/UrBcXDZ_2hI/AAAAAAAAexE/mMhzBB_EOSM/s1034-no/IMG_20120702_163254.jpg",
+      "id": "b5ca32e2-a5c6-e311-b297-00155d5066d7"
+    },
+    {
+      "bio": "Kirill is a software engineer at Google, working on the platform powering the Google Art Project. Prior to joining Google in 2011, he worked at Aldebaran Robotics doing computer vision.\n",
+      "name": "Kirill Boyarshinov",
+      "company": "Live Typing",
+      "plusoneUrl": "https://plus.google.com/+КириллБояршинов",
+      "thumbnailUrl": "https://lh3.googleusercontent.com/-3cqA1ouzTrE/U0eP8AEBtpI/AAAAAAAAAKM/dTXkJsC9lWM/s880-no/4ffdacefd252abfac93a6a86137fcdb4.jpeg",
+      "id": "bc11152b-c4cf-e311-b297-00155d5066d7"
+    },
+    {
+      "bio": "Yulia is a designer focused on speed of innovation and team-work that create simple, beautiful solutions for a global audience. She works as a Staff Designer and Design Evangelist at Google X, a new product lab at Google. To date, Nadya has run 60 design sprints at Google, including projects for Google [X], Chrome and Ads & Commerce.",
+      "company": "Smart Bikes",
+      "plusoneUrl": "",
+      "name": "Yulia Naychuk",
+      "thumbnailUrl": "http://cs413420.vk.me/v413420349/331e/pH2m1GiXNcU.jpg",
+      "id": "f184af29-46d2-e311-b297-00155d5066d7"
+    },
+    {
+      "bio": "",
+      "name": "Vladislav Sirenko",
+      "company": "Terapevt",
+      "plusoneUrl": "https://plus.google.com/+ВладиславСиренко",
+      "thumbnailUrl": "https://lh5.googleusercontent.com/-5ZXgePTwVlY/T-xccGq-jxI/AAAAAAAAAXs/dRYQFC97gV4/s1034-no/4aUeKcZU9lY.jpg",
+      "id": "69058c1e-a6c6-e311-b297-00155d5066d7"
+    },
+    {
+      "bio": "Alexey was the technical lead for Google Santa Tracker, a delightful project built by a group of merry volunteers. When not tracking Saint Nick, he is a senior engineer on the Google Developer Relations team, focusing primarily on the Google Maps APIs (mobile and web). You'll often find Chris cruising around on a longboard near Google's offices in Pyrmont, Sydney.",
+      "name": "Alexey Zinoviev",
+      "company": "Thumtack",
+      "plusoneUrl": "https://plus.google.com/110650159101065784429",
+      "thumbnailUrl": "https://lh4.googleusercontent.com/-uZNTOPBR2R8/TrinK3yXUiI/AAAAAAAABEY/kZZnE8u3rvA/s900-no/y_dc67b076.jpg",
+      "id": "14408a18-a6c6-e311-b297-00155d5066d7"
+    },
+    {
+      "bio": "Ekaterina has been with Google since 2012, where she currently works as a Sr. Designer on Google Maps. She brings projects from development through to completion, defines user interface for new and existing products and features, develops high level mockups, motion graphics and prototypes, to effectively communicate interaction and visual design ideas. She has experience integrating design across multiple platforms, from desktop, mobile, TV, and gaming consoles.",
+      "name": "Ekaterina Pender",
+      "company": "Google",
+      "plusoneUrl": "https://plus.google.com/109261224216765187591",
+      "thumbnailUrl": "https://lh5.googleusercontent.com/-1SvgC42G9sk/UKuOjgJi-6I/AAAAAAAAADE/JrBZ1JvkFkc/s1034-no/IMG_278411.jpg",
+      "id": "755d9e72-cad0-e311-b297-00155d5066d7"
+    }
+  ],
+  "blocks": [
+    {
+      "title": "Registration",
+      "type": "break",
+      "subtitle": "Hall, Level 1",
+      "start": "2014-11-01T09:00:00.000+07:00",
+      "end": "2014-11-01T10:00:00.000+07:00"
+    },
+    {
+      "title": "Lunch",
+      "type": "break",
+      "subtitle": "Cafe, Level 1",
+      "start": "2014-11-01T13:00:00.000+07:00",
+      "end": "2014-11-01T14:00:00.000+07:00"
+    },
+    {
+      "title": "Lunch",
+      "type": "break",
+      "subtitle": "Cafe, Level 1",
+      "start": "2014-11-02T13:00:00.000+07:00",
+      "end": "2014-11-02T14:00:00.000+07:00"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2014-11-01T10:00:00.000+07:00",
+      "end": "2014-11-01T11:00:00.000+07:00"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2014-11-01T11:00:00.000+07:00",
+      "end": "2014-11-01T12:00:00.000+07:00"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2014-11-01T12:00:00.000+07:00",
+      "end": "2014-11-01T13:00:00.000+07:00"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2014-11-01T13:00:00.000+07:00",
+      "end": "2014-11-01T14:00:00.000+07:00"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2014-11-01T14:00:00.000+07:00",
+      "end": "2014-11-01T15:00:00.000+07:00"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2014-11-01T15:00:00.000+07:00",
+      "end": "2014-11-01T16:00:00.000+07:00"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2014-11-01T16:00:00.000+07:00",
+      "end": "2014-11-01T17:00:00.000+07:00"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2014-11-01T17:00:00.000+07:00",
+      "end": "2014-11-01T18:00:00.000+07:00"
+    },
+
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2014-11-02T10:00:00.000+07:00",
+      "end": "2014-11-02T11:00:00.000+07:00"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2014-11-02T11:00:00.000+07:00",
+      "end": "2014-11-02T12:00:00.000+07:00"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2014-11-02T12:00:00.000+07:00",
+      "end": "2014-11-02T13:00:00.000+07:00"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2014-11-02T14:00:00.000+07:00",
+      "end": "2014-11-02T15:00:00.000+07:00"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2014-11-02T15:00:00.000+07:00",
+      "end": "2014-11-02T16:00:00.000+07:00"
+    }
+  ],
+
+  "partners": [],
+
+  "sessions": [
+    {
+      "speakers": ["14408a18-a6c6-e311-b297-00155d5066d7", "755d9e72-cad0-e311-b297-00155d5066d7"],
+      "description": "DevFest's much-anticipated kickoff event will make you among the first developers to see what we've been working on here at Google. If you're not joining us at Moscone, grab some popcorn, kick back and enjoy the show directly from your Android powered device.",
+      "photoUrl": "http://hdwallpapersmart.com/wp-content/uploads/2014/06/fuuny-cats.jpg",
+      "url": "https://gdg-devfest-omsk.org",
+      "startTimestamp": "2014-11-01T10:00:00+07:00",
+      "endTimestamp": "2014-11-01T13:00:00+07:00",
+      "title": "Keynote",
+      "youtubeUrl": "https://google.com/events/io",
+      "mainTag": "FLAG_KEYNOTE",
+      "color": "#3f51b5",
+      "hashtag": "keynote",
+      "isLivestream": true,
+      "captionsUrl": "",
+      "id": "__keynote__",
+      "tags": [
+        "FLAG_KEYNOTE"
+      ],
+      "room": "room301"
+    },
+    {
+      "speakers": ["b5ca32e2-a5c6-e311-b297-00155d5066d7"],
+      "description": "Build the best version of your app. Come learn tips and tricks for building truly great Android apps - get the most out of Android Studio’s design tools, master the intricacies of Gradle, tune your client performance with procstats and systrace, simplify your backend with Google Play services, and more. Android experts will be on hand to tear down your app … and then rebuild it. We have the technology.",
+      "title": "Android in Cube",
+      "photoUrl": "http://www.factsprofessor.com/wp-content/uploads/2014/07/cats.jpg",
+      "url": "https://devfest.gdgomsk.org/schedule/session/09dad573-bbe6-e311-b297-00155d5066d7",
+      "startTimestamp": "2014-11-01T14:00:00+07:00",
+      "endTimestamp": "2014-11-01T15:00:00+07:00",
+      "tags": [
+        "TOPIC_ANDROID",
+        "TOPIC_DEVELOP"
+      ],
+      "mainTag": "TOPIC_ANDROID",
+      "id": "09dcd573-bbe6-e311-b297-00155a5066d7",
+      "color": "#33CC33",
+      "room": "room301",
+      "hashtag": "android",
+      "isLivestream": false,
+      "captionsUrl": ""
+    },
+    {
+      "speakers": ["69058c1e-a6c6-e311-b297-00155d5066d7"],
+      "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "title": "What's new in Startups",
+      "photoUrl": "http://graphicsheat.com/wp-content/uploads/2013/05/cute-cats-23.jpg",
+      "url": "https://devfest.gdgomsk.org/schedule/session/09dad573-bbe6-e311-b297-00155d5066d9",
+      "startTimestamp": "2014-11-01T15:00:00+07:00",
+      "endTimestamp": "2014-11-01T15:30:00+07:00",
+      "tags": [
+        "TOPIC_STARTUPS",
+        "TOPIC_MONETIZATION",
+        "THEME_DISTRIBUTE"
+      ],
+      "mainTag": "TOPIC_STARTUPS",
+      "id": "09dad573-bbe6-e311-b297-00155d5066d8",
+      "color": "#E6E600",
+      "room": "room301",
+      "hashtag": "startups",
+      "isLivestream": false,
+      "captionsUrl": ""
+    },
+    {
+      "speakers": ["f184af29-46d2-e311-b297-00155d5066d7"],
+      "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "title": "Design for Smart Bikes",
+      "photoUrl": "http://1.bp.blogspot.com/-8b_anuOmWDg/T8dw1OExAiI/AAAAAAAANto/BcuPdgp3NO0/s1600/all-in-onewallpapersfortollyto3d.blogspot+%25282%2529.jpg",
+      "url": "https://devfest.gdgomsk.org/schedule/session/09dad573-bbe6-e311-b297-00155d5066d9",
+      "startTimestamp": "2014-11-01T15:30:00+07:00",
+      "endTimestamp": "2014-11-01T16:00:00+07:00",
+      "tags": [
+        "TOPIC_STARTUPS",
+        "THEME_DESIGN"
+      ],
+      "mainTag": "THEME_DESIGN",
+      "id": "f184af29-46d2-e3e1-b297-00155d5066d9",
+      "color": "#005CE6",
+      "room": "room301",
+      "hashtag": "startups",
+      "isLivestream": false,
+      "captionsUrl": ""
+    },
+    {
+      "speakers": ["bc11152b-c4cf-e311-b297-00155d5066d7"],
+      "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "title": "Mortar and Flow",
+      "photoUrl": "http://stuffpoint.com/cats/image/431041-cats-cute-cat-wallpaper-hd-background-do.jpg",
+      "url": "https://devfest.gdgomsk.org/schedule/session/09dad573-bbe6-e311-b297-00155d5066e1",
+      "startTimestamp": "2014-11-01T16:00:00+07:00",
+      "endTimestamp": "2014-11-01T18:00:00+07:00",
+      "tags": [
+        "TOPIC_ANDROID",
+        "THEME_DEVELOP"
+      ],
+      "mainTag": "TOPIC_ANDROID",
+      "id": "09dad573-bbe6-e311-b297-00155d5066e1",
+      "color": "#E60000",
+      "room": "room301",
+      "hashtag": "startups",
+      "isLivestream": false,
+      "captionsUrl": ""
+    }
+  ],
+
+  "video_library": [
+    {
+      "vid": "wtLJPvx7-ys",
+      "title": "Google I/O 2014 Keynote",
+      "topic": "",
+      "year": "2014",
+      "thumbnailUrl": "http://eastworks.co.uk/wp-content/uploads/2014/06/io-live.jpg",
+      "id": "wtLJPvx7-ys",
+      "desc": "Google I/O 2014 Keynote"
+    }
+  ],
+
+  "hashtags": [
+    {
+      "color": "#303f9f",
+      "order": 1,
+      "name": "#devfest",
+      "description": "Follow the general Google+ social conversation happening around I/O 2014."
+    },
+    {
+      "color": "#9fa8da",
+      "order": 10,
+      "name": "#keynote",
+      "description": "Follow the Google+ social conversation about the Keynote announcements at I/O 2014."
+    },
+    {
+      "color": "#80cbc4",
+      "order": 15,
+      "name": "#afterparty",
+      "description": "Check out the highlights of the After Hours, this year with a taste of San Francisco: a beer garden, food trucks, local indie bands, and more."
+    },
+    {
+      "color": "#3f51b5",
+      "order": 20,
+      "name": "#design",
+      "description": "Follow the Google+ social conversation about \"Design\" at I/O 2014."
+    },
+    {
+      "color": "#03a9f4",
+      "order": 21,
+      "name": "#develop",
+      "description": "Follow the Google+ social conversation about \"Develop\" at I/O 2014."
+    },
+    {
+      "color": "#e91e63",
+      "order": 22,
+      "name": "#distribute",
+      "description": "Follow the Google+ social conversation about \"Distribute\" at I/O 2014."
+    },
+    {
+      "color": "#558b2f",
+      "order": 31,
+      "name": "#mobile",
+      "description": "Follow the Google+ social conversation about \"Android\" at I/O 2014."
+    },
+    {
+      "color": "#55332f",
+      "order": 32,
+      "name": "#web",
+      "description": "Follow the Google+ social conversation about \"Web\" at I/O 2014."
+    },
+    {
+      "color": "#0288d1",
+      "order": 33,
+      "name": "#cloud",
+      "description": "Follow the Google+ social conversation about \"Cloud\" at I/O 2014."
+    }
+  ],
+
+  "experts": [],
+
+  "rooms": [
+    {
+      "original_id": "0be884ab-5cd5-e311-b297-00155d5066d7",
+      "id": "room301",
+      "name": "Room 301"
+    },
+    {
+      "original_id": "997c3886-5cd5-e311-b297-00155d5066d7",
+      "id": "room315",
+      "name": "Room 315"
+    }
+  ],
+
+  "tags": [
+    {
+      "category": "THEME",
+      "name": "Develop",
+      "abstract": "",
+      "tag": "THEME_DEVELOP",
+      "original_id": "2ade1c01-8ed0-e311-b297-00155d5066d7",
+      "order_in_category": 2
+    },
+    {
+      "category": "THEME",
+      "name": "Design",
+      "abstract": "",
+      "tag": "THEME_DESIGN",
+      "original_id": "c120fdc1-8dd0-e311-b297-00155d5066d7",
+      "order_in_category": 1
+    },
+    {
+      "category": "THEME",
+      "name": "Distribute",
+      "abstract": "",
+      "tag": "THEME_DISTRIBUTE",
+      "original_id": "41335208-8ed0-e311-b297-00155d5066d7",
+      "order_in_category": 3
+    },
+
+    {
+      "category": "TYPE",
+      "name": "Sessions",
+      "abstract": "",
+      "tag": "TYPE_SESSIONS",
+      "original_id": "08e12eae-a487-e311-84db-00155d5066d7",
+      "order_in_category": 1
+    },
+    {
+      "category": "TYPE",
+      "name": "Barcamps",
+      "abstract": "",
+      "tag": "TYPE_BARCAMPS",
+      "original_id": "09e12eae-a487-e311-84db-00155d5066d7",
+      "order_in_category": 5
+    },
+
+    {
+      "category": "TOPIC",
+      "name": "Android",
+      "color": "#558b2f",
+      "abstract": "",
+      "tag": "TOPIC_ANDROID",
+      "original_id": "c8e37a77-3688-e311-84db-00155d5066d7",
+      "order_in_category": 1
+    },
+    {
+      "category": "TOPIC",
+      "name": "Monetization",
+      "color": "#0d904f",
+      "abstract": "",
+      "tag": "TOPIC_MONETIZATION",
+      "original_id": "0eedf9a6-3688-e311-84db-00155d5066d7",
+      "order_in_category": 10
+    },
+    {
+      "category": "TOPIC",
+      "name": "Startups",
+      "color": "#646464",
+      "abstract": "",
+      "tag": "TOPIC_STARTUPS",
+      "original_id": "5820cc6e-fde0-e311-b297-00155d5066d7",
+      "order_in_category": 0
+    },
+    {
+      "category": "TOPIC",
+      "name": "Chrome / Web",
+      "color": "#3367d6",
+      "abstract": "",
+      "tag": "TOPIC_CHROME_WEB",
+      "original_id": "51ad7559-3788-e311-84db-00155d5066d7",
+      "hashtag": "Chrome",
+      "order_in_category": 2
+    },
+    {
+      "category": "TOPIC",
+      "name": "Media",
+      "color": "#ce4319",
+      "abstract": "",
+      "tag": "TOPIC_MEDIA",
+      "original_id": "aea61daf-3688-e311-84db-00155d5066d7",
+      "order_in_category": 9
+    }
+  ]
+}

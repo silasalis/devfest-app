@@ -42,9 +42,9 @@ public class ScheduleWidgetProvider extends AppWidgetProvider {
     private static final String TAG = makeLogTag(ScheduleWidgetProvider.class);
 
     private static final String REFRESH_ACTION =
-            "com.google.samples.apps.iosched.appwidget.action.REFRESH";
+            "org.gdgomsk.devfest.app.appwidget.action.REFRESH";
     private static final String EXTRA_PERFORM_SYNC =
-            "com.google.samples.apps.iosched.appwidget.extra.PERFORM_SYNC";
+            "org.gdgomsk.devfest.app.appwidget.extra.PERFORM_SYNC";
 
     public static Intent getRefreshBroadcastIntent(Context context, boolean performSync) {
         return new Intent(REFRESH_ACTION)

@@ -28,7 +28,7 @@ import android.support.v4.app.TaskStackBuilder;
  * for it, per Android's design guidelines for navigation from widgets and notifications.
  */
 public class TaskStackBuilderProxyActivity extends Activity {
-    private static final String EXTRA_INTENTS = "com.google.samples.apps.iosched.extra.INTENTS";
+    private static final String EXTRA_INTENTS = "org.gdgomsk.devfest.app.extra.INTENTS";
 
     public static Intent getTemplate(Context context) {
         return new Intent(context, TaskStackBuilderProxyActivity.class)

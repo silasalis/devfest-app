@@ -16,13 +16,6 @@
 
 package com.google.samples.apps.iosched.service;
 
-import android.util.Log;
-import com.google.samples.apps.iosched.Config;
-import com.google.samples.apps.iosched.R;
-import com.google.samples.apps.iosched.provider.ScheduleContract;
-import com.google.samples.apps.iosched.util.AccountUtils;
-
-import android.annotation.TargetApi;
 import android.app.IntentService;
 import android.content.ContentProviderOperation;
 import android.content.ContentResolver;
@@ -35,6 +28,12 @@ import android.os.Bundle;
 import android.os.RemoteException;
 import android.provider.CalendarContract;
 import android.text.TextUtils;
+import android.util.Log;
+
+import com.google.samples.apps.iosched.Config;
+import com.google.samples.apps.iosched.R;
+import com.google.samples.apps.iosched.provider.ScheduleContract;
+import com.google.samples.apps.iosched.util.AccountUtils;
 import com.google.samples.apps.iosched.util.PrefUtils;
 
 import java.util.ArrayList;
@@ -51,25 +50,25 @@ public class SessionCalendarService extends IntentService {
     private static final String TAG = makeLogTag(SessionCalendarService.class);
 
     public static final String ACTION_ADD_SESSION_CALENDAR =
-            "com.google.samples.apps.iosched.action.ADD_SESSION_CALENDAR";
+            "org.gdgomsk.devfest.app.action.ADD_SESSION_CALENDAR";
     public static final String ACTION_REMOVE_SESSION_CALENDAR =
-            "com.google.samples.apps.iosched.action.REMOVE_SESSION_CALENDAR";
+            "org.gdgomsk.devfest.app.action.REMOVE_SESSION_CALENDAR";
     public static final String ACTION_UPDATE_ALL_SESSIONS_CALENDAR =
-            "com.google.samples.apps.iosched.action.UPDATE_ALL_SESSIONS_CALENDAR";
+            "org.gdgomsk.devfest.app.action.UPDATE_ALL_SESSIONS_CALENDAR";
     public static final String ACTION_UPDATE_ALL_SESSIONS_CALENDAR_COMPLETED =
-            "com.google.samples.apps.iosched.action.UPDATE_CALENDAR_COMPLETED";
+            "org.gdgomsk.devfest.app.action.UPDATE_CALENDAR_COMPLETED";
     public static final String ACTION_CLEAR_ALL_SESSIONS_CALENDAR =
-            "com.google.samples.apps.iosched.action.CLEAR_ALL_SESSIONS_CALENDAR";
+            "org.gdgomsk.devfest.app.action.CLEAR_ALL_SESSIONS_CALENDAR";
     public static final String EXTRA_ACCOUNT_NAME =
-            "com.google.samples.apps.iosched.extra.ACCOUNT_NAME";
+            "org.gdgomsk.devfest.app.extra.ACCOUNT_NAME";
     public static final String EXTRA_SESSION_START =
-            "com.google.samples.apps.iosched.extra.SESSION_BLOCK_START";
+            "org.gdgomsk.devfest.app.extra.SESSION_BLOCK_START";
     public static final String EXTRA_SESSION_END =
-            "com.google.samples.apps.iosched.extra.SESSION_BLOCK_END";
+            "org.gdgomsk.devfest.app.extra.SESSION_BLOCK_END";
     public static final String EXTRA_SESSION_TITLE =
-            "com.google.samples.apps.iosched.extra.SESSION_TITLE";
+            "org.gdgomsk.devfest.app.extra.SESSION_TITLE";
     public static final String EXTRA_SESSION_ROOM =
-            "com.google.samples.apps.iosched.extra.SESSION_ROOM";
+            "org.gdgomsk.devfest.app.extra.SESSION_ROOM";
 
     private static final long INVALID_CALENDAR_ID = -1;
 

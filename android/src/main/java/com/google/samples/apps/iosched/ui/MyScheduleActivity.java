@@ -97,20 +97,20 @@ public class MyScheduleActivity extends BaseActivity implements MyScheduleFragme
     boolean mDestroyed = false;
 
     private static final String ARG_CONFERENCE_DAY_INDEX
-            = "com.google.samples.apps.iosched.ARG_CONFERENCE_DAY_INDEX";
+            = "org.gdgomsk.devfest.app.ARG_CONFERENCE_DAY_INDEX";
 
     private Set<MyScheduleFragment> mMyScheduleFragments = new HashSet<MyScheduleFragment>();
 
     public static final String EXTRA_DIALOG_TITLE
-            = "com.google.samples.apps.iosched.EXTRA_DIALOG_TITLE";
+            = "org.gdgomsk.devfest.app.EXTRA_DIALOG_TITLE";
     public static final String EXTRA_DIALOG_MESSAGE
-            = "com.google.samples.apps.iosched.EXTRA_DIALOG_MESSAGE";
+            = "org.gdgomsk.devfest.app.EXTRA_DIALOG_MESSAGE";
     public static final String EXTRA_DIALOG_YES
-            = "com.google.samples.apps.iosched.EXTRA_DIALOG_YES";
+            = "org.gdgomsk.devfest.app.EXTRA_DIALOG_YES";
     public static final String EXTRA_DIALOG_NO
-            = "com.google.samples.apps.iosched.EXTRA_DIALOG_NO";
+            = "org.gdgomsk.devfest.app.EXTRA_DIALOG_NO";
     public static final String EXTRA_DIALOG_URL
-            = "com.google.samples.apps.iosched.EXTRA_DIALOG_URL";
+            = "org.gdgomsk.devfest.app.EXTRA_DIALOG_URL";
 
     private boolean mShowedAnnouncementDialog = false;
 

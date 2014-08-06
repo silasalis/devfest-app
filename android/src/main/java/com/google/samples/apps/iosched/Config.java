@@ -26,6 +26,10 @@ import java.util.TimeZone;
 
 public class Config {
     // General configuration
+    public static final String APP_ID_AT_GOOGLE_DEVELOPER_CONSOLE = "DevFest-Omsk-App";
+    public static final String APP_API_KEY_AT_GOOGLE_API_CONSOLE = "AIzaSyBK00d8tsQZnHGshfTg4MRNTbKvkZkb2Mo";
+
+
 
     // Is this an internal dogfood build?
     public static final boolean IS_DOGFOOD_BUILD = false;
@@ -35,7 +39,7 @@ public class Config {
     public static final String DOGFOOD_BUILD_WARNING_TEXT = "This is a test build.";
 
     // Public data manifest URL
-    public static final String PROD_CONFERENCE_DATA_MANIFEST_URL = "";
+    public static final String PROD_CONFERENCE_DATA_MANIFEST_URL = "https://dl.dropboxusercontent.com/u/4423440/devfest-app/manifest.json";
 
     // Manifest URL override for Debug (staging) builds:
     public static final String MANIFEST_URL = PROD_CONFERENCE_DATA_MANIFEST_URL;
@@ -43,12 +47,12 @@ public class Config {
     public static final String BOOTSTRAP_DATA_TIMESTAMP = "Thu, 10 Apr 2014 00:01:03 GMT";
 
     // Conference hashtag
-    public static final String CONFERENCE_HASHTAG = "#io14";
+    public static final String CONFERENCE_HASHTAG = "#devfest";
 
     // Patterns that, when absent from a hashtag, will trigger the addition of the
     // CONFERENCE_HASHTAG on sharing snippets. Ex: "#Android" will be shared as "#io14 #Android",
     // but "#iohunt" won't be modified.
-    public static final String CONFERENCE_HASHTAG_PREFIX = "#io";
+    public static final String CONFERENCE_HASHTAG_PREFIX = "#devfest";
 
     // Hard-coded conference dates. This is hardcoded here instead of extracted from the conference
     // data to avoid the Schedule UI breaking if some session is incorrectly set to a wrong date.
@@ -56,14 +60,14 @@ public class Config {
 
     public static final long[][] CONFERENCE_DAYS = new long[][] {
             // start and end of day 1
-            { ParserUtils.parseTime("2014-06-25T07:00:00.000Z"),
-              ParserUtils.parseTime("2014-06-26T06:59:59.999Z") },
+            { ParserUtils.parseTime("2014-11-01T10:00:00.000+07:00"),
+              ParserUtils.parseTime("2014-11-01T17:59:59.999+07:00") },
             // start and end of day 2
-            { ParserUtils.parseTime("2014-06-26T07:00:00.000Z"),
-              ParserUtils.parseTime("2014-06-27T06:59:59.999Z") },
+            { ParserUtils.parseTime("2014-11-02T10:00:00.000+07:00"),
+              ParserUtils.parseTime("2014-11-02T15:59:59.999+07:00") },
         };
 
-    public static final TimeZone CONFERENCE_TIMEZONE = TimeZone.getTimeZone("America/Los_Angeles");
+    public static final TimeZone CONFERENCE_TIMEZONE = TimeZone.getTimeZone("Russia/Omsk");
 
     public static final long CONFERENCE_START_MILLIS = CONFERENCE_DAYS[0][0];
     public static final long CONFERENCE_END_MILLIS = CONFERENCE_DAYS[CONFERENCE_DAYS.length-1][1];
@@ -75,14 +79,14 @@ public class Config {
     public static final long DAY_MILLIS = 24 * HOUR_MILLIS;
 
     // OAuth 2.0 related config
-    public static final String APP_NAME = "GoogleIO-Android";
-    public static final String API_KEY = "";
+    public static final String APP_NAME = APP_ID_AT_GOOGLE_DEVELOPER_CONSOLE;
+    public static final String API_KEY = APP_API_KEY_AT_GOOGLE_API_CONSOLE;
 
     // Announcements
-    public static final String ANNOUNCEMENTS_PLUS_ID = "";
+    public static final String ANNOUNCEMENTS_PLUS_ID = "102520175692033125056"; // id of +GDG Omsk page
 
     // YouTube API config
-    public static final String YOUTUBE_API_KEY = "";
+    public static final String YOUTUBE_API_KEY = APP_API_KEY_AT_GOOGLE_API_CONSOLE;
 
     // YouTube share URL
     public static final String YOUTUBE_SHARE_URL_PREFIX = "http://youtu.be/";
@@ -91,15 +95,15 @@ public class Config {
     public static final String LIVESTREAM_CAPTIONS_DARK_THEME_URL_PARAM = "&theme=dark";
 
     // Conference public WiFi AP parameters
-    public static final String WIFI_SSID = "IO2014";
+    public static final String WIFI_SSID = "DevFest"; //TODO: update to real ssid
     public static final String WIFI_PASSPHRASE = "letsdothis";
 
     // GCM config
-    public static final String GCM_SERVER_PROD_URL = "";
-    public static final String GCM_SERVER_URL = "";
+    public static final String GCM_SERVER_PROD_URL = "http://gcm.gdg-devfest-omsk.org";
+    public static final String GCM_SERVER_URL = "http://gcm.gdg-devfest-omsk.org";
 
     // the GCM sender ID is the ID of the app in Google Cloud Console
-    public static final String GCM_SENDER_ID = "";
+    public static final String GCM_SENDER_ID = APP_ID_AT_GOOGLE_DEVELOPER_CONSOLE;
 
     // The registration api KEY in the gcm server (configured in the GCM
     // server's AuthHelper.java file)
@@ -119,10 +123,11 @@ public class Config {
 
     // Link to Google I/O Extended events presented in Explore screen
     public static final String IO_EXTENDED_LINK = "http://www.google.com/events/io/io-extended";
+    //FIXME: change logic to exploring world DevFest events
 
-    // 2014-07-25: Time of expiration for experts directory data.
+    // 2014-12-01 15-00 GMT: Time of expiration for experts directory data.
     // Represented as elapsed milliseconds since the epoch.
-    public static final long EXPERTS_DIRECTORY_EXPIRATION = 1406214000000L;
+    public static final long EXPERTS_DIRECTORY_EXPIRATION = 1417446000000L;
 
     /**
      * Check if the experts directory data expired.
@@ -134,7 +139,7 @@ public class Config {
     }
 
     // URL to use for resolving NearbyDevice metadata.
-    public static final String METADATA_URL =
+    public static final String METADATA_URL = //TODO: understand what we need to set here
             // "http://url-caster.appspot.com/resolve-scan"
             rep("http://example-caster", "example", "url") + "."
                     + rep("example.com", "example", "appspot")
@@ -172,6 +177,7 @@ public class Config {
 
     // Package name for the I/O Hunt game
     public static final String IO_HUNT_PACKAGE_NAME = "com.google.wolff.androidhunt2";
+    //FIXME: implement Hunt for DevFest or remove this feature from the app
 
     // Play store URL prefix
     public static final String PLAY_STORE_URL_PREFIX
@@ -216,15 +222,16 @@ public class Config {
     // Values for the EventPoint feedback API. Sync happens at the same time as schedule sync,
     // and before that values are stored locally in the database.
 
+    // TODO: understand what we need to set here?
     public static final String FEEDBACK_API_CODE = "";
     public static final String FEEDBACK_URL = "";
     public static final String FEEDBACK_API_KEY = "";
     public static final String FEEDBACK_DUMMY_REGISTRANT_ID = "";
     public static final String FEEDBACK_SURVEY_ID = "";
 
-    // URL prefix for web links to session pages
+    // URL prefix for web links that will be hooked to open of session pages in the app
     public static final Uri SESSION_DETAIL_WEB_URL_PREFIX
-            = Uri.parse("https://www.google.com/events/io/schedule/session/");
+            = Uri.parse("https://devfest.gdgomsk.org/schedule/session/"); // TODO: ensure that's correct
 
 
     // Profile URLs for simulated badge reads for the debug feature.
