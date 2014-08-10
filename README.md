@@ -13,7 +13,7 @@ Work was started by [Alex Korovyansky](http://github.com/korovyansk) at August 2
 
 Basic modification is [already](https://github.com/GDGOmsk/devfest-app/commit/52066ba5ef8fa013dd0661fda9681fd332f83002) [done](https://github.com/GDGOmsk/devfest-app/releases). Also here in GDG Omsk several Android devs have expressed interest in contribution to the project. So we have nice roadmap for [August](https://github.com/GDGOmsk/devfest-app/issues?q=is%3Aopen+is%3Aissue+milestone%3AAugust+sort%3Acreated-asc)!
 
-Contibution
+Contribution
 ---
 If someone is interested to help, feel free to resolve [Issues](https://github.com/GDGOmsk/devfest-app/issues?q=is%3Aopen+is%3Aissue+sort%3Acreated-asc) and send Pull Requests. 
 
