@@ -67,7 +67,7 @@ public class Config {
               ParserUtils.parseTime("2014-11-02T15:59:59.999+07:00") },
         };
 
-    public static final TimeZone CONFERENCE_TIMEZONE = TimeZone.getTimeZone("Russia/Omsk");
+    public static final TimeZone CONFERENCE_TIMEZONE = TimeZone.getTimeZone("Asia/Omsk");
 
     public static final long CONFERENCE_START_MILLIS = CONFERENCE_DAYS[0][0];
     public static final long CONFERENCE_END_MILLIS = CONFERENCE_DAYS[CONFERENCE_DAYS.length-1][1];
