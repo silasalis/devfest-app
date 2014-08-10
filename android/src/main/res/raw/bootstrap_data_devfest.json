@@ -274,12 +274,12 @@
   "video_library": [
     {
       "vid": "wtLJPvx7-ys",
-      "title": "Google I/O 2014 Keynote",
+      "title": "GDG DevFest Omsk 2014 Keynote",
       "topic": "",
       "year": "2014",
       "thumbnailUrl": "http://eastworks.co.uk/wp-content/uploads/2014/06/io-live.jpg",
       "id": "wtLJPvx7-ys",
-      "desc": "Google I/O 2014 Keynote"
+      "desc": "GDG DevFest Omsk 2014 Keynote"
     }
   ],
 
@@ -288,13 +288,13 @@
       "color": "#303f9f",
       "order": 1,
       "name": "#devfest",
-      "description": "Follow the general Google+ social conversation happening around I/O 2014."
+      "description": "Follow the general Google+ social conversation happening around GDG DevFest Omsk 2014."
     },
     {
       "color": "#9fa8da",
       "order": 10,
       "name": "#keynote",
-      "description": "Follow the Google+ social conversation about the Keynote announcements at I/O 2014."
+      "description": "Follow the Google+ social conversation about the Keynote announcements at GDG DevFest Omsk 2014."
     },
     {
       "color": "#80cbc4",
@@ -306,37 +306,37 @@
       "color": "#3f51b5",
       "order": 20,
       "name": "#design",
-      "description": "Follow the Google+ social conversation about \"Design\" at I/O 2014."
+      "description": "Follow the Google+ social conversation about \"Design\" at GDG DevFest Omsk 2014."
     },
     {
       "color": "#03a9f4",
       "order": 21,
       "name": "#develop",
-      "description": "Follow the Google+ social conversation about \"Develop\" at I/O 2014."
+      "description": "Follow the Google+ social conversation about \"Develop\" at GDG DevFest Omsk 2014."
     },
     {
       "color": "#e91e63",
       "order": 22,
       "name": "#distribute",
-      "description": "Follow the Google+ social conversation about \"Distribute\" at I/O 2014."
+      "description": "Follow the Google+ social conversation about \"Distribute\" at GDG DevFest Omsk 2014."
     },
     {
       "color": "#558b2f",
       "order": 31,
       "name": "#mobile",
-      "description": "Follow the Google+ social conversation about \"Android\" at I/O 2014."
+      "description": "Follow the Google+ social conversation about \"Android\" at GDG DevFest Omsk 2014."
     },
     {
       "color": "#55332f",
       "order": 32,
       "name": "#web",
-      "description": "Follow the Google+ social conversation about \"Web\" at I/O 2014."
+      "description": "Follow the Google+ social conversation about \"Web\" at GDG DevFest Omsk 2014."
     },
     {
       "color": "#0288d1",
       "order": 33,
       "name": "#cloud",
-      "description": "Follow the Google+ social conversation about \"Cloud\" at I/O 2014."
+      "description": "Follow the Google+ social conversation about \"Cloud\" at GDG DevFest Omsk 2014."
     }
   ],
 
