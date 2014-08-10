@@ -80,11 +80,11 @@
     <string name="all_years">모든 년도</string>
 
     <!-- Label on a button that is one possible answer to the question "Are you attending the
-    conference in person in San Francisco or remotely via livestream?" -->
+    conference in person in Omsk or remotely via livestream?" -->
     <string name="attending_in_person">직접 참석</string>
 
     <!-- Label on a button that is one possible answer to the question "Are you attending the
-    conference in person in San Francisco or remotely via livestream?" -->
+    conference in person in Omsk or remotely via livestream?" -->
     <string name="attending_remotely">원격 연결</string>
 
     <!-- Label on a button that allows the user to browse GDG DevFest Omsk Extended events that they
@@ -337,7 +337,7 @@
     <string name="navdrawer_item_video_library">비디오 라이브러리</string>
 
     <!-- Text indicator that appears below the user's name, showing that they are
-    attending the conference in person in San Francisco. -->
+    attending the conference in person in Omsk. -->
     <string name="navdrawer_status_attending_in_person">GDG DevFest Omsk에 직접 참석</string>
 
     <!-- Text indicator that appears below the user's name, showing that they are

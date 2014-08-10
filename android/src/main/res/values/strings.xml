@@ -91,11 +91,11 @@
     <string name="app_name">GDG DevFest Omsk</string>
 
     <!-- Label on a button that is one possible answer to the question "Are you attending the
-    conference in person in San Francisco or remotely via livestream?" -->
+    conference in person in Omsk or remotely via livestream?" -->
     <string name="attending_in_person">In Person</string>
 
     <!-- Label on a button that is one possible answer to the question "Are you attending the
-    conference in person in San Francisco or remotely via livestream?" -->
+    conference in person in Omsk or remotely via livestream?" -->
     <string name="attending_remotely">Remotely</string>
 
     <!-- Label on a button that allows the user to browse GDG DevFest Omsk Extended events that they
@@ -394,7 +394,7 @@
     <string name="navdrawer_item_video_library">Video library</string>
 
     <!-- Text indicator that appears below the user's name, showing that they are
-    attending the conference in person in San Francisco. -->
+    attending the conference in person in Omsk. -->
     <string name="navdrawer_status_attending_in_person">Attending GDG DevFest Omsk in person</string>
 
     <!-- Text indicator that appears below the user's name, showing that they are
@@ -551,7 +551,7 @@
 
     <!-- Text of a card shown in the session explorer that asks the user if he will be attending GDG DevFest Omsk
     in person or remotely. "Remotely" and "In person" are the buttons shown in the card -->
-    <string name="question_local_or_remote">Are you attending GDG DevFest Omsk remotely or in person in San Francisco?</string>
+    <string name="question_local_or_remote">Are you attending GDG DevFest Omsk remotely or in person in Omsk?</string>
 
     <!-- Text of a card shown in the session explorer after GDG DevFest Omsk has started that asks the user if
     he wants to configure the WiFi. "Yes!" and "No, thanks" are the buttons shown in the card -->
