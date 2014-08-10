@@ -1,62 +1,31 @@
-Google I/O Android App
+GDG DevFest Omsk Android App
 ======================
 
-Google I/O is a developer conference held each year with two days of deep
-technical content featuring technical sessions and hundreds of demonstrations
-from developers showcasing their technologies.
+Hello World!
 
-This project is the Android app for the conference. The app supports devices
-running Android 4.0+, and is optimized for phones and tablets of all shapes
-and sizes. It also contains an Android Wear integration.
+Objective of this project is customization of [I/O App](http://android-developers.blogspot.ru/2014/07/google-io-2014-app-source-code-now.html) to cute app for GDG DevFest Season. 
 
-<h2>Android L Developer Preview</h2>
+![Alt text](https://cloud.githubusercontent.com/assets/479961/3826227/bacfe452-1d5e-11e4-9574-8c67f8d01b16.png "GDG DevFest App")
 
-![Screenshot](art/hero.png)
+Current progress
+---
+Work was started by [Alex Korovyansky](http://github.com/korovyansk) at August 2, 2014. 
 
-We have updated the I/O app with [material design](http://www.google.com/design/spec) and the [Android L Developer Preview](http://developer.android.com/preview/index.html)! For a quick preview of the new tactile surfaces, animated touch feedback, bold use of color, and refreshed iconography by checking out this [teaser video](https://www.youtube.com/watch?v=mCgteBXYxQc) or download the preview APK below.
+Basic modification is [already](https://github.com/GDGOmsk/devfest-app/commit/52066ba5ef8fa013dd0661fda9681fd332f83002) [done](https://github.com/GDGOmsk/devfest-app/releases). Also here in GDG Omsk several Android devs have expressed interest in contribution to the project. So we have nice roadmap for [August](https://github.com/GDGOmsk/devfest-app/issues?q=is%3Aopen+is%3Aissue+milestone%3AAugust+sort%3Acreated-asc)!
 
-<a href="../../raw/master/binaries/iosched-lpreview.apk"><b>Download the I/O app APK for Android L Preview</b></a>
+Contribution
+---
+If someone is interested to help, feel free to resolve [Issues](https://github.com/GDGOmsk/devfest-app/issues?q=is%3Aopen+is%3Aissue+sort%3Acreated-asc) and send Pull Requests. 
 
-To run this APK, you will need a device set up with the Android L Preview system image. For
-more information, please refer to the [Android L Developer Preview page](http://developer.android.com/preview/index.html).
+Also we would be happy to get feedback from DevFest organizers about which features would be useful inside DevFest App. The best way for feedback is creation of [new issue](https://github.com/GDGOmsk/devfest-app/issues/new) with suggestion of a feature. For example, for our event we found very useful to make funny [slot machine](https://github.com/GDGOmsk/devfest-app/issues/14), to get a chance for app users to win invites to DevFest Omsk.
 
-<h2>Source</h2>
+Notices for Contributors
+--- 
+One commit should be very accurate solution of one issue, it would be very useful, when we will move from App for GDG DevFest Omsk to Template App for GDG DevFests.
 
-The source code in this repository reflects the app as of I/O 2014.
-
-<h2>Features</h2>
-
-With the app, you can:
-
-- View the conference agenda and edit your personal schedule
-- Sync your schedule between all of your devices and the I/O website
-- View detailed session, code lab, office hours, and speaker information,
-  including speaker bios, photos, and Google+ profiles
-- +1 sessions right from the app
-- Participate in public #io14 conversations on Google+
-- Guide yourself using the vector-based conference map
-- Get a reminder a few minutes before sessions in your schedule are due to
-  start
-- View information about companies in the Developer Sandbox
-- Play "I/O Live" session video streams
-- Beam session details from your NFC-enabled device to another using Android Beam
-- Scan attendee badges on your NFC-enabled device
-- See a list of people whose badges you have scanned, and take notes about your meeting with them
-- Send feedback on sessions, from your phone/tablet, or from your Android Wear device
-
-<h2>How to Work with the Source</h2>
-
-We hope the source code for this app is useful for you as a reference or starting point for creating your own apps. Here is some additional reading to help you better understand and reuse this code.
-
-  * [Build instructions](doc/BUILDING.md): instructions on how to build and run the code.
-  * [Sync protocol and data format](doc/SYNC.md)
-  * [Image loading](doc/IMAGES.md)
-  * [Use of GCM](doc/GCM.md)
-  * [Customization guide](doc/CUSTOM.md)
-
-<h2>Copyright</h2>
-
-    Copyright 2014 Google Inc. All rights reserved.
+Copyright
+---
+    Copyright 2014 GDG Omsk. All rights reserved.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
