@@ -1,0 +1,6 @@
+{
+    "format": "iosched-json-v1",
+    "data_files": [
+        "test_data_v1.json"
+    ]
+}

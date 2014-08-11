@@ -1,0 +1,130 @@
+{
+  "speakers": [
+    {
+      "bio": "Speaker1.Bio",
+      "name": "Speaker1.Name",
+      "company": "Speaker1.Company",
+      "plusoneUrl": "FIXME",
+      "thumbnailUrl": "http://192.168.59.103:8081/images/speaker_thumbnail_url.png",
+      "id": "Speaker1"
+    }
+  ],
+  "blocks": [
+    {
+      "title": "Block1.Title | type==Break",
+      "type": "break",
+      "subtitle": "Block1.Subtitle",
+      "start": "2014-11-01T09:00:00.000+07:00",
+      "end": "2014-11-01T10:00:00.000+07:00"
+    },
+    {
+      "title": "Block2.Title | type==Free",
+      "type": "free",
+      "subtitle": "Block2.Subtitle",
+      "start": "2014-11-01T10:00:00.000+07:00",
+      "end": "2014-11-01T11:00:00.000+07:00"
+    }
+  ],
+
+  "partners": [],
+
+  "sessions": [
+    {
+      "title": "Session1.Title | __keynote__ | color==#3f51b5 | isLivestream==true",
+      "description": "Session1.Description",
+      "speakers": ["Speaker1"],
+      "startTimestamp": "2014-11-01T10:00:00+07:00",
+      "endTimestamp": "2014-11-01T13:00:00+07:00",
+      "photoUrl": "http://192.168.59.103:8081/images/session_photo_url_keynote.png",
+      "url": "FIXME",
+      "youtubeUrl": "FIXME",
+      "color": "#3f51b5",
+      "isLivestream": true,
+      "captionsUrl": "",
+      "id": "__keynote__",
+      "tags": [
+        "FLAG_KEYNOTE"
+      ],
+      "mainTag": "FLAG_KEYNOTE",
+      "hashtag": "HashTag1",
+      "room": "Room1"
+    },
+    {
+      "title": "Session2.Title | color==#33CC33 | isLivestream==false",
+      "description": "Session1.Description",
+      "speakers": ["Speaker1"],
+      "startTimestamp": "2014-11-01T13:00:00+07:00",
+      "endTimestamp": "2014-11-01T14:00:00+07:00",
+      "photoUrl": "http://192.168.59.103:8081/images/session_photo_url_standard.png",
+      "url": "FIXME",
+      "youtubeUrl": "FIXME",
+      "color": "#33CC33",
+      "isLivestream": false,
+      "captionsUrl": "",
+      "id": "Session2",
+      "tags": [
+        "Topic1",
+        "Topic2"
+      ],
+      "mainTag": "Topic1",
+      "hashtag": "HashTag2",
+      "room": "Room1"
+    }
+  ],
+
+  "video_library": [
+    {
+      "vid": "wtLJPvx7-ys",
+      "title": "Video1.Title",
+      "topic": "Video1.Topic",
+      "year": "2014",
+      "thumbnailUrl": "http://192.168.59.103:8081/images/video_library_thumbnail_url_standard.png",
+      "id": "Video1",
+      "desc": "Video1.Description"
+    }
+  ],
+
+  "experts": [],
+
+  "rooms": [
+    {
+      "original_id": "Room1-Original-Id",
+      "id": "Room1",
+      "name": "Room1.Name"
+    }
+  ],
+
+  "tags": [
+    {
+      "category": "Tags.Category1",
+      "name": "Tag1.Name",
+      "abstract": "Tag1.Abstract",
+      "tag": "Tag1",
+      "original_id": "Tag1-Original-Id",
+      "order_in_category": 1
+    },
+    {
+      "category": "Tags.Category2",
+      "name": "Tag2.Name",
+      "abstract": "Tag1.Abstract",
+      "tag": "Tag2",
+      "original_id": "Tag2-Original-Id",
+      "order_in_category": 2
+    }
+  ],
+
+  "hashtags": [
+    {
+      "color": "#303f9f",
+      "order": 1,
+      "name": "#HashTag1",
+      "description": "HashTag1.Description"
+    },
+    {
+      "color": "#9fa8da",
+      "order": 2,
+      "name": "#HashTag2",
+      "description": "HashTag2.Description"
+    }
+  ]
+}
