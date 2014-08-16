@@ -29,7 +29,10 @@ public class Config {
     public static final String APP_ID_AT_GOOGLE_DEVELOPER_CONSOLE = "DevFest-Omsk-App";
     public static final String APP_API_KEY_AT_GOOGLE_API_CONSOLE = "AIzaSyBK00d8tsQZnHGshfTg4MRNTbKvkZkb2Mo";
 
-
+    // Switch to enable "Experts" section in menu
+    public static final boolean ENABLE_EXPERTS_SECTION = false;
+    // Switch to enable "People I have met" section in menu
+    public static final boolean ENABLE_PEOPLE_I_HAVE_MET_SECTION = false;
 
     // Is this an internal dogfood build?
     public static final boolean IS_DOGFOOD_BUILD = false;

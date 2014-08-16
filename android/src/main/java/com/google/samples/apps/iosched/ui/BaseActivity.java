@@ -389,12 +389,12 @@ public abstract class BaseActivity extends Activity implements
         mNavDrawerItems.add(NAVDRAWER_ITEM_SEPARATOR);
 
         // If attendee is on-site, show the People I've Met item
-        if (attendeeAtVenue) {
+        if (attendeeAtVenue && Config.ENABLE_PEOPLE_I_HAVE_MET_SECTION) {
             mNavDrawerItems.add(NAVDRAWER_ITEM_PEOPLE_IVE_MET);
         }
 
         // If the experts directory hasn't expired, show it
-        if (!Config.hasExpertsDirectoryExpired()) {
+        if (!Config.hasExpertsDirectoryExpired() && Config.ENABLE_EXPERTS_SECTION) {
             mNavDrawerItems.add(NAVDRAWER_ITEM_EXPERTS_DIRECTORY);
         }
 
