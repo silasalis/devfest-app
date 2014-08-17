@@ -106,11 +106,11 @@ public class Config {
     public static final String GCM_SERVER_URL = "http://gcm.gdg-devfest-omsk.org";
 
     // the GCM sender ID is the ID of the app in Google Cloud Console
-    public static final String GCM_SENDER_ID = APP_ID_AT_GOOGLE_DEVELOPER_CONSOLE;
+    public static final String GCM_SENDER_ID = "306219399262";
 
     // The registration api KEY in the gcm server (configured in the GCM
     // server's AuthHelper.java file)
-    public static final String GCM_API_KEY = "";
+    public static final String GCM_API_KEY = "REG-KEY-ANDROID-APP";
 
     // When do we start to offer to set up the user's wifi?
     public static final long WIFI_SETUP_OFFER_START =
